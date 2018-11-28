@@ -5,7 +5,8 @@ Steps for Setup:
 1. Download the code.
 2. npm i
 3. npm start
-The project will serve on localhost:8000
+
+ The project will serve on localhost:8000
 
 Implemented features include:
   * Page for items listing.
