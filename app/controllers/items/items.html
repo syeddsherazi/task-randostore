@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-8" style="padding:10px">
+            <input style="float:right" placeholder="Search Item" type="text" ng-model="keyword" ng-change="filter()">
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-sm-6 col-md-4" ng-repeat="item in filteredItems">
+            <div class="thumbnail">
+                <img ng-src="{{item.image}}" class="img-responsive" style="height: 150px !important; width: 150px !important">
+                <div class="caption">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6" style="height:130px; word-wrap: break-word; overflow: hidden">
+                            <h3>{{item.name}}</h3>
+                        </div>
+                        <div class="col-md-6 col-xs-6 price" style="height:130px; word-wrap: break-word; overflow: hidden">
+                            <h3>
+                                <label>{{item.price | currency}}</label></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <a class="btn btn-primary btn-product" ng-click="addToCart(item)"><span class="glyphicon glyphicon-plus-sign"></span>
+                                Add To Cart
+                            </a>
+                        </div>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

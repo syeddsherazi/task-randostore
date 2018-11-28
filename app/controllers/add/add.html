@@ -1,0 +1,30 @@
+<div class="container">
+  <h1>Put Items up for Sale</h1>
+  <form name="myForm" class="form-horizontal col-md-6 col-sm-12" ng-submit="submitForm()">
+    <div class="form-group">
+      <label for="name">Name:<span style="color:red">*</span></label>
+      <input type="text" class="form-control" id="name" name="name" ng-model="formData.name" required>
+    </div>
+    <div class="form-group">
+      <label for="price">Price:<span style="color:red">*</span></label>
+      <input type="number" class="form-control" id="price" name="price" ng-model="formData.price" required min="0">
+      <span class="error" ng-show="myForm.price.$error.number">
+        Price can be number only! ヽ(ಠ_ಠ)ノ
+      </span>
+      <span class="error" ng-show="myForm.price.$error.min">
+        Price can't be negative! ¯\_ಠ_ಠ_/¯
+      </span>
+    </div>
+    <div class="form-group">
+      <label for="image">Image Url:<span style="color:red">*</span></label>
+      <input type="text" class="form-control" id="image" name="image" ng-model="formData.image" required>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">Add Item</button>
+    </div>
+  </form>
+  <div class="clearfix"></div>
+  <p>
+    <a href="#!/items">View items</a>
+  </p>
+</div>

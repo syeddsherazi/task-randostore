@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="main-title">
+        <h1><a href="#">RandoStore</a></h1>
+    </div>
+</div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li ng-class="{'active': isActiveLink('items')}"><a href="#!/items">Items</a></li>
+            <li ng-class="{'active': isActiveLink('add')}"><a href="#!/add">Add Item</a></li>
+            <li ng-class="{'active': isActiveLink('cart')}"><a href="#!/cart">My Cart {{cart.length ? '('+ cart.length
+                    + ')' : ''}}</a></li>
+        </ul>
+    </div>
+</nav>

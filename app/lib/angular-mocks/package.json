@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "angular-mocks@^1.7.5",
+      "/home/sherazi/Projects/task-randostore"
+    ]
+  ],
+  "_from": "angular-mocks@>=1.7.5 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-mocks@1.7.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-mocks",
+  "_nodeVersion": "8.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-mocks_1.7.5_1538662772102_0.24135667005277495"
+  },
+  "_npmUser": {
+    "email": "pete@bacondarwin.com",
+    "name": "petebd"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular-mocks",
+    "raw": "angular-mocks@^1.7.5",
+    "rawSpec": "^1.7.5",
+    "scope": null,
+    "spec": ">=1.7.5 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.7.5.tgz",
+  "_shasum": "c8baba5a06ed60b934697026b492169626af384b",
+  "_shrinkwrap": null,
+  "_spec": "angular-mocks@^1.7.5",
+  "_where": "/home/sherazi/Projects/task-randostore",
+  "author": {
+    "email": "angular-core+npm@google.com",
+    "name": "Angular Core Team"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS mocks for testing",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 8,
+    "integrity": "sha512-I+Ue2Bkx6R9W5178DYrNvzjIdGh4wKKoCWsgz8dc7ysH4mA70Q3M9v5xRF0RUu7r+2CZj+nDeUecvh2paxcYvg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbtiF0CRA9TVsSAnZWagAAQhwP/iEK3HwNKbtbQZStIHOh\nnz2phcVSyCguyQXo8DG9yiEjh2Z2HF5VohU2ITGQOdqfcIvQtGeOM2aQtDA3\n392CDLn4fODrE2EriXbdDQPeqcqwDUYKW5TYcaoe+4CZsVGlcf4EpAayGD1M\nNyzoxikY9ShcJp6twTqC8jne3yIGk/oHBISvSKX7wSoFKwS38X11RUmsLydC\ne7Hv1LTPWO/OA26/fz2STnPBLJQ7FDGX3uwV5UrlEcF+zsnIwm+X+HFtQ7eK\nvL4iucKNFQbfPsHCrLlY4MsAw43wDddnKKM73zmCY6r6qKNa4HDsubjWGFDG\nroF0ina/f4odl1B+psGiHjLNtJqQvZ1W91cltbKAyPLQev50bzh8Y6AdiDjG\ndL7IVzHVdI3MLZfkLs0cQtndvRQB9O7VBBRabNKvf6O9y/JQdljWE8jZayvM\nonNSMNJ4U1iJUE+PaXIHKUUh5EDGXpdDVyzDsrs+GOnQ578Qr70caFyohLDT\nevNjxJN84a4BsOyGn7wfgUOW6V29fwffHOcH3wx9+8KFJgeiFSh7tFIBtMEZ\n8EFPi2ileg6EiRA4ecYuP93RvHFzEOJzi2b9nVOvBgdCrGjXpKoIBM7VQ5+c\njY8W81C7h+PaNDxXGqqmmkXgLoTZahUuBWjh5WTRFYiQe1tNLbVeQNt8P0q3\nj/Ki\r\n=qRsY\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "c8baba5a06ed60b934697026b492169626af384b",
+    "tarball": "https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.7.5.tgz",
+    "unpackedSize": 139299
+  },
+  "gitHead": "f2ef9b1fb9bca5a8fafd107372afe71e6209c238",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-mocks": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "browser",
+    "client-side",
+    "framework",
+    "mocks",
+    "testing"
+  ],
+  "license": "MIT",
+  "main": "angular-mocks.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    },
+    {
+      "name": "angularcore",
+      "email": "angular-core+npm@google.com"
+    },
+    {
+      "name": "petebd",
+      "email": "pete@bacondarwin.com"
+    }
+  ],
+  "name": "angular-mocks",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.7.5"
+}

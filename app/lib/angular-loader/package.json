@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "angular-loader@^1.7.5",
+      "/home/sherazi/Projects/task-randostore"
+    ]
+  ],
+  "_from": "angular-loader@>=1.7.5 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-loader@1.7.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-loader",
+  "_nodeVersion": "8.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-loader_1.7.5_1538662702825_0.3974283501136766"
+  },
+  "_npmUser": {
+    "email": "pete@bacondarwin.com",
+    "name": "petebd"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular-loader",
+    "raw": "angular-loader@^1.7.5",
+    "rawSpec": "^1.7.5",
+    "scope": null,
+    "spec": ">=1.7.5 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-loader/-/angular-loader-1.7.5.tgz",
+  "_shasum": "d830f13ee86a379cc1d1e64e8d4fa1876e5a3ab8",
+  "_shrinkwrap": null,
+  "_spec": "angular-loader@^1.7.5",
+  "_where": "/home/sherazi/Projects/task-randostore",
+  "author": {
+    "email": "angular-core+npm@google.com",
+    "name": "Angular Core Team"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS module for asynchronously loading modules",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 7,
+    "integrity": "sha512-3dDyHc/ySVs/EjKcKOJQ8tppsnp64ZO1lrUD6H8JpKq947lntdE/KF5V2Urv91SaGofRY9VwLibkLTdF32FR5Q==",
+    "shasum": "d830f13ee86a379cc1d1e64e8d4fa1876e5a3ab8",
+    "tarball": "https://registry.npmjs.org/angular-loader/-/angular-loader-1.7.5.tgz",
+    "unpackedSize": 33356
+  },
+  "gitHead": "6ee6017a0eaaf746dd5072f5c6e39022d68ffe5a",
+  "homepage": "http://angularjs.org",
+  "jspm": {
+    "shim": {
+      "angular-loader": {
+        "deps": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "angular",
+    "browser",
+    "client-side",
+    "framework",
+    "loader"
+  ],
+  "license": "MIT",
+  "main": "angular-loader.js",
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "devops+npm@angular.io"
+    },
+    {
+      "name": "angularcore",
+      "email": "angular-core+npm@google.com"
+    },
+    {
+      "name": "petebd",
+      "email": "pete@bacondarwin.com"
+    }
+  ],
+  "name": "angular-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.7.5"
+}
