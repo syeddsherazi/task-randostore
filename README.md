@@ -1,6 +1,12 @@
 # task-randostore
 Front end task Randostore
 
+Steps for Setup:
+1. Download the code.
+2. npm i
+3. npm start
+The project will serve on localhost:8000
+
 Implemented features include:
   * Page for items listing.
   * Page for add items.
@@ -18,3 +24,16 @@ As far as the time taken is concerned. I tried to keep a track of time. It took 
 Time division:
   * 1 hr basic AngularJS documentation reading. Since I didn't have any prior experience with AngularJS, I considered it'll be fruitless if I dive blindlessly into the task. So I spent around 1 hr reading some of the basics of AngularJS. As I did have experience with newer versions of Angular (2,4,5) so I found quite a lot fimilarities which enabled me to start the project with some know how in a short time.
   * 6.5-7 hrs for implementation of task.
+  
+  
+One thing I would like to mention is that I was getting CORS issue while hitting the NodeJS server. Since it didn't allowed cross origin requests. I installed cors from npm in your node project. You may need to do the same.
+
+Step 1:
+npm i cors --save
+
+Step 2:
+Add the following 2 lines on your node project's index js file after line 17.
+var cors = require('cors');
+app.use(cors());
+
+
